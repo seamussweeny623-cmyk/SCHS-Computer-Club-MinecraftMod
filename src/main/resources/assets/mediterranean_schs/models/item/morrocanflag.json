@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mediterraneanmod:item/morrocanflag"
+    "layer0": "mediterranean_schs:item/morrocanflag"
   }
 
 }
