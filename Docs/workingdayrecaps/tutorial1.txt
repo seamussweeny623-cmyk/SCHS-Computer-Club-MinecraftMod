@@ -1,0 +1,31 @@
+2026-02-16
+
+This is what I've learned from Tutorial video #1 (not including setup tutorial)
+
+This video was on making new items
+
+Recap what I did:
+    - Made an "item" package in the mod directory, with an "ModItems" directory
+    - declared a "DeferredRegister" object,
+        - learned the importance of tab autocomplete
+        - introduced to <Item> 'qualifier'(thats what ill call it for now)
+          that I believe allows a class or method to give the compiler a heads up for what type
+          of data the instance will be
+        - learned that to investigate a class you can ctrl + left click it's name
+    - Made a "register" method in "ModItems" class to be called in the "MediterraneanMod" class
+    - declare a item object in "ModItems" passing a String and supplier?
+    - create a "addCreative" tab "event.accept()" for new item that makes it show up in creative
+      ingredients tab?
+
+    - created assets directory in "resources" and another folder within assets with our MOD_ID
+        - within said directory a "lang", "models", and "textures" folder with the latter two having an "item"
+        - "lang" with an en_us.json, and the "models" with another json, and textures with a png (latter two same name as item string name)
+
+
+futher investigation:
+    - what is an eventbus
+    - what is a deferred register really? or registers in general?
+    - what is a supplier parameter?
+    - what does the item declaration "RegisterObject..." line and parameters really mean?
+    - how does the ModItems class work?
+    - understand library @param ... standard documentation stuff
